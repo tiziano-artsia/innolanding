@@ -7,6 +7,8 @@ module.exports = {
                 'verde':'#D1FFEC',
                 'violac':'#9999FF',
                 'violas':'#36174C',
+                
+                
             },
         screens: {
             'sm': '767px',  // Dispositivi Mobile

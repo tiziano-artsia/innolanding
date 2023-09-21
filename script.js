@@ -136,7 +136,7 @@ acceptTermsCheckbox.addEventListener('change', function () {
 function validateForm(event) {
     if (!isValidEmail(emailInput.value) || !acceptTermsCheckbox.checked) {
         event.preventDefault(); // Evita l'invio del modulo
-        emailError.textContent = 'Completa tutti i campi correttamente.';
+        emailError.textContent = 'Enter a valid email address.';
     }
 }
 
