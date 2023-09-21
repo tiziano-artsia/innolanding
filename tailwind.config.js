@@ -12,6 +12,7 @@ module.exports = {
             'sm': '767px',  // Dispositivi Mobile
             'md': '1194px', // Dispositivi Tablet
             'lg': '1194px', // Dispositivi Desktop
+            'xl': '1900px' //dispositivi grandi
         },
         spacing: {
             '0.5': '0.5rem',

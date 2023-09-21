@@ -1004,6 +1004,12 @@ input:checked + .toggle-bg {
   }
 }
 
+@media (min-width: 1900px) {
+  .container {
+    max-width: 1900px;
+  }
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -1114,6 +1120,14 @@ input:checked + .toggle-bg {
   margin-top: 5rem;
 }
 
+.mt-8 {
+  margin-top: 8rem;
+}
+
+.mt-\[50\%\] {
+  margin-top: 50%;
+}
+
 .block {
   display: block;
 }
@@ -1146,8 +1160,8 @@ input:checked + .toggle-bg {
   display: none;
 }
 
-.h-3 {
-  height: 3rem;
+.h-2 {
+  height: 2rem;
 }
 
 .h-4 {
@@ -1158,32 +1172,12 @@ input:checked + .toggle-bg {
   height: 6rem;
 }
 
-.h-8 {
-  height: 8rem;
-}
-
 .h-\[calc\(100\%-1rem\)\] {
   height: calc(100% - 1rem);
 }
 
 .h-screen {
   height: 100vh;
-}
-
-.h-2 {
-  height: 2rem;
-}
-
-.h-auto {
-  height: auto;
-}
-
-.h-1\/2 {
-  height: 50%;
-}
-
-.h-full {
-  height: 100%;
 }
 
 .max-h-full {
@@ -1196,10 +1190,6 @@ input:checked + .toggle-bg {
 
 .w-1\/2 {
   width: 50%;
-}
-
-.w-2 {
-  width: 2rem;
 }
 
 .w-2\/4 {
@@ -1224,6 +1214,10 @@ input:checked + .toggle-bg {
 
 .w-full {
   width: 100%;
+}
+
+.w-2 {
+  width: 2rem;
 }
 
 .min-w-\[180px\] {
@@ -1541,6 +1535,10 @@ input:checked + .toggle-bg {
 
 .p-6 {
   padding: 6rem;
+}
+
+.p-5 {
+  padding: 5rem;
 }
 
 .px-2 {
@@ -2365,6 +2363,10 @@ main {
     padding-right: 5rem;
   }
 
+  .lg\:mt-3 {
+    margin-top: 3rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -2395,5 +2397,11 @@ main {
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+}
+
+@media (min-width: 1900px) {
+  .xl\:mt-\[95\%\] {
+    margin-top: 95%;
   }
 }
