@@ -1591,6 +1591,10 @@ input:checked + .toggle-bg {
   padding-left: 1rem;
 }
 
+.pr-1 {
+  padding-right: 1rem;
+}
+
 .pr-2 {
   padding-right: 2rem;
 }
@@ -2333,10 +2337,6 @@ input[type='email']:focus{
 }
 
 @media (min-width: 1194px) {
-  .md\:block {
-    display: block;
-  }
-
   .md\:hidden {
     display: none;
   }
@@ -2400,6 +2400,10 @@ input[type='email']:focus{
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:pr-2 {
+    padding-right: 2rem;
   }
 }
 
